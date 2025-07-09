@@ -74,13 +74,13 @@ It's important to notice that different an more playful results could be expecte
 
 ![flowers](https://github.com/user-attachments/assets/6e6ef886-76ee-4fd8-b0d5-9f79df97a087)
 
-> Image evolved with small-shape revisited evolution over 50000 epochs, with 12 processes. Reference: `[2]`
+> Image evolved with small-shape revisited evolution over 50000 epochs, with 12 processes. Reference: `[3]`
 
 3. *B/W Picture of Trieste*
 
 ![trieste](https://github.com/user-attachments/assets/25f5647b-6685-4a36-96d4-80e8a328853d)
 
-> Image evolved with small-shape revisited evolution over 50000 epochs, with 12 processes. `[2]`
+> Image evolved with small-shape revisited evolution over 50000 epochs, with 12 processes.
 >
 > *(Personal reference image)*
 
