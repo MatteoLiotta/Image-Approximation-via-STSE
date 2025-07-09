@@ -38,11 +38,10 @@ Where the crossover and offspring generation originally proposed is:
     > A parameter can be used to set those min-max distances limits
 
 2. **Better shape positioning**
-  * Now it's more unlikely to observe absurde shape realization thanks to a better definition of space positioning
+  * Now it's more unlikely to observe unrealistic shape realization thanks to a better definition of space positioning
 
 3. **Patching and multiprocessing**
-  * Introduced patches
-  * As a consequence
+  * Introduced patches idea, with these consequences:
     * Increased precision on single-patches
     * Each core could handle evolution independently on a sub part of the image (patch)
     * Speed increase due to smaller comparison of images in fitness evaluation
@@ -52,13 +51,15 @@ Where the crossover and offspring generation originally proposed is:
       > No assumptions or reduced set of shapes and colors
 
 3. **Fitness change towards faster computation**
-   * We move from this fitness function to a cheaper one.
-     ![lossfunctionoriginal](https://github.com/user-attachments/assets/69bb0f3e-7a64-4700-a8f7-7fc86942efbf)
+   * We move from the original fitness function to a cheaper one.
  
 4. **Introduced shape resising hyperparameter**
   * Instead of just fixed size shape we can fix the reduction ratio of shapes, so to have smaller shapes, leading to more details eventually captured
 
 ## Conclusion 
+The project demonstrates the evolution of Semi-Transparent Shapes with, showing the capability of capturing and recreaing details and characteristics of a selected reference image over time. It's important to underline that this specific implementation mainly focuses over both speed and generality, trying to find a trade-off between them while recreating an accurate image approximation.
+
+It's important to notice that different an more playful results could be expected to be achieved by with the introduction of different shapes or by fixing just some of them.  ;)
 
 ### Evolved image examples 
 
