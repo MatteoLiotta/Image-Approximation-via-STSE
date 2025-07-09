@@ -1,7 +1,7 @@
 # Image Approximation via STSE
 > Image Approximation via Semi-Transparent Shape Evolution, OPTAI final project
 
-![parisimage empty](https://github.com/user-attachments/assets/864a7e32-11a5-4a12-b1e9-af6da96de293)
+![parisimage empty](https://github.com/MatteoLiotta/Image-Approximation-via-TSE/blob/main/Presentation/Images/parisimage%20empty.png)
 
 
 ## Project Overview
