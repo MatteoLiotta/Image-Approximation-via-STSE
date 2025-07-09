@@ -31,7 +31,7 @@ Where the crossover and offspring generation originally proposed is:
 
 1. **Introduced a shape and color alteration through mutation**
   * Shape coloring mutation based on previous gene rather than randomic
-    > ![image](https://github.com/user-attachments/assets/68a4fb97-5851-4ba2-8c5f-5a62b17cf4ce)
+    > ![image](https://github.com/MatteoLiotta/Image-Approximation-via-STSE/blob/main/Presentation/Images/colorpalette.png)
   
   * Shape size mutation based on previous gene rather than randomic
     > ![shapemutation](https://github.com/MatteoLiotta/Image-Approximation-via-STSE/blob/main/Presentation/Images/shapemutation.png)
