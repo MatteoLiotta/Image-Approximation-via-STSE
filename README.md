@@ -6,17 +6,17 @@
 
 ## Project Overview
 
-This project is a revisit of the “Genetic-lisa” Peter Braden’s project, which aims to recreate images with genetic algorithms., which had different implementations over time, from Python to C. In this case, you can find a modified python code in which not only explains the evolutionary procedure, but also tries to reduce computational limits due to image fitness evalutation, via multiprocessing. The aim in this case was also to increase generality by avoiding shape and color assumptions, making the same code capable of evolging different images dnas.
+This project is a revisit of the “Genetic-lisa” Peter Braden’s project, which aims to recreate images with genetic algorithms. It has seen different implementations over time, from Python to C. This version includes a modified python code which not only explains the evolutionary procedure, but also tries to reduce computational limits due to image fitness evalutation via multiprocessing. The goal was was also to increase generality by avoiding shape and color assumptions, making the same code capable of evolging different images DNAs.
 
 All original code was available [here](https://github.com/peterbraden/genetic-lisa/tree/master).
 
 ## Computational Resources
 
-All the consideration power references should take into consideration that the project was realised entirely on a `MacBook Air M3 (2024) 256 GB` and `i7 Lenovo Legion`, with limited capabilities. Notice that:
-* Mac computer has 8 cores
-* Lenovo computer has 12 cores
+All computational considerations are based on the following two machines the consideration power references should take into consideration that the project was realised entirely on a  and , with limited capabilities. Notice that:
+* `MacBook Air M3 (2024) 256 GB`, with `8 cores CPU`
+* `i7 Lenovo Legion`, with `12 cores CPU`
   
-and that's the reason of 8 and 12 patching inside the project code.
+That justifies the idea behind 8 and 12 patching number inside the project code.
 
 ## Few words on evolutionary cicle and individuals
 
