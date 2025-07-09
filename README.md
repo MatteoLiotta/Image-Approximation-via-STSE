@@ -1,7 +1,7 @@
 # Image Approximation via STSE
 > Image Approximation via Semi-Transparent Shape Evolution, OPTAI final project
 
-![parisimage empty](https://github.com/MatteoLiotta/Image-Approximation-via-TSE/blob/main/Presentation/Images/parisimage%20empty.png)
+![parisimage empty](https://github.com/MatteoLiotta/Image-Approximation-via-STSE/blob/main/Presentation/Images/parisimage%20empty.png)
 
 
 ## Project Overview
@@ -20,11 +20,11 @@ That justifies the idea behind 8 and 12 patching number inside the project code.
 
 ## Few words on evolutionary cicle and individuals
 
-![cycle](https://github.com/user-attachments/assets/271bb820-b78a-4e50-afb3-23603f4c3dde)
+![cycle](https://github.com/MatteoLiotta/Image-Approximation-via-STSE/blob/main/Presentation/Images/cycle.png)
 
 Where the crossover and offspring generation originally proposed is:
 
-![crossover](https://github.com/user-attachments/assets/bfaec362-28c0-4ce3-8612-7bc433456f3a)
+![crossover](https://github.com/MatteoLiotta/Image-Approximation-via-STSE/blob/main/Presentation/Images/crossover.png)
 
 
 ## Differences and improvements
@@ -34,7 +34,7 @@ Where the crossover and offspring generation originally proposed is:
     > ![image](https://github.com/user-attachments/assets/68a4fb97-5851-4ba2-8c5f-5a62b17cf4ce)
   
   * Shape size mutation based on previous gene rather than randomic
-    > ![shapemutation](https://github.com/user-attachments/assets/60e3a990-2093-41e0-8fa8-39f3a8289be3)
+    > ![shapemutation](https://github.com/MatteoLiotta/Image-Approximation-via-STSE/blob/main/Presentation/Images/shapemutation.png)
     > A parameter can be used to set those min-max distances limits
 
 2. **Better shape positioning**
@@ -65,20 +65,20 @@ It's important to notice that different an more playful results could be expecte
 
 1. *Notre Dame Image*
 
-![parisimage](https://github.com/user-attachments/assets/5431cb47-1004-4a40-8093-b0b5d7521345)
+![parisimage](https://github.com/MatteoLiotta/Image-Approximation-via-STSE/blob/main/Presentation/Images/parisimage.png)
 
 > Images evolved with all methods discussed: original code, shape-color mutation revisited and additional small-shape revisited evolution. Evolved over 50000 epochs, with 1 / 8 / 12 processes depending on the method used.
 > *(Personal reference image)*
 
 2. *Van Gogh Sunflowers*
 
-![flowers](https://github.com/user-attachments/assets/6e6ef886-76ee-4fd8-b0d5-9f79df97a087)
+![flowers](https://github.com/MatteoLiotta/Image-Approximation-via-STSE/blob/main/Presentation/Images/flowers.png)
 
 > Image evolved with small-shape revisited evolution over 50000 epochs, with 12 processes. Reference: `[3]`
 
 3. *B/W Picture of Trieste*
 
-![trieste](https://github.com/user-attachments/assets/25f5647b-6685-4a36-96d4-80e8a328853d)
+![trieste](https://github.com/MatteoLiotta/Image-Approximation-via-STSE/blob/main/Presentation/Images/trieste.png)
 
 > Image evolved with small-shape revisited evolution over 50000 epochs, with 12 processes.
 >
