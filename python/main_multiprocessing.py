@@ -507,21 +507,19 @@ def split_image_in_patches(image, rows = split_rows, cols = split_cols):
 
 
 ## RESTART EVOLUTION
-
+#  almost Same than original
 def recover_population(patch_num, base_folder=save_path):
     folder = os.path.join(base_folder, f"num_{patch_num}")
-    #print(f"\n{folder}\n")
     if not os.path.exists(folder):
         print(f"Folder {folder} does not exist. Created.")
-        return None, 0  # nessun dato e gen 0
+        return None, 0  
 
-    # Cerca i file gen-*.txt e trova l'ultima generazione salvata
     saved_files = [f for f in os.listdir(folder) if f.startswith("gen-") and f.endswith(".txt")]
     if not saved_files:
         print(f"No saved generations found in {folder}.")
         return None, 0
 
-    # Estrai numeri generazione e trova la più alta
+    # find bigest one there is
     generations = []
     for f in saved_files:
         match = re.search(r"gen-(\d+)\.txt", f)
@@ -556,7 +554,7 @@ def evolution_patches(
     i=0, 
     #fitnesses = [],
     processes_number=0,
-    reference_patch=None  # patch di riferimento per questo processes
+    reference_patch=None  
 ):
     if initial_data is None:
         initial_data = [Strain(name='initial', reference_image=reference_patch) for _ in range(CROSSOVER_POPULATION)]
